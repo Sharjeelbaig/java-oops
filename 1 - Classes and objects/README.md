@@ -64,14 +64,19 @@ We use objects, which is an instance of a class, while a class is used which is 
 ### creating objects
 ```java
 Gmc envoy = new Gmc();
+```
+### initializing objects
+```
 envoy.model = 2009;
 envoy.price = 35500;
 envoy.isXL = true;
 envoy.color = "golden";
 ```
-
+### using
 ```java
 system.out.println(envoy.model); // print 2009 on console
 system.out.println("SAR: " + envoy.price); // print SAR: 35500
 envoy.drive(); // print Car is being driven
 ```
+# Exercise:
+create a java oops program, which ask user (employee) his name, father name, university from which he is graduated, his age, his field, and then print them on the screen, after that, it asks user to update the info, if user enters "yes", it prompts user with the same questions again but if the user entered "no", it will print thanks.
