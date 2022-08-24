@@ -12,6 +12,8 @@ We use objects, which is an instance of a class, while a class is used which is 
 <li>Sierra</li>
 <li>Yukon</li>
 </ul>
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/29815204/186344226-d75682bc-bca7-420b-9f7b-856e1b568b1b.jpg)
-![Nova-GMC-Sierra-1500-2022-01](https://user-images.githubusercontent.com/29815204/186344240-168d2eb1-7df5-415f-9f58-c15e1ce1a92a.jpg)
+![Envoy](https://user-images.githubusercontent.com/29815204/186344226-d75682bc-bca7-420b-9f7b-856e1b568b1b.jpg)
+<img height="50" id="envoy" onmouseover="document.getElementById('envoy').style.opacity = 0.5" src="https://user-images.githubusercontent.com/29815204/186344226-d75682bc-bca7-420b-9f7b-856e1b568b1b.jpg"/>
 ![yukon](https://user-images.githubusercontent.com/29815204/186344255-338bf63b-90a8-4c90-b95e-755dbf530ef2.jpg)
+![Sierra](https://user-images.githubusercontent.com/29815204/186344240-168d2eb1-7df5-415f-9f58-c15e1ce1a92a.jpg)
+
