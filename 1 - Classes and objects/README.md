@@ -42,6 +42,7 @@ We use objects, which is an instance of a class, while a class is used which is 
   </ul>
  They share these properties, because they came out from the same class! I hope you have got a theoritical understanding of what classes and objects are.
  Lets move to the practical knowledge,
+ 
  ### declaring a class
  We can create a class using the following syntex
  
