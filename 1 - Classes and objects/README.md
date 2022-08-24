@@ -9,6 +9,6 @@ We use objects, which is an instance of a class, while a class is used which is 
 <p>Think of class as any company, for instance it is "GMC", now our class "GMC" has several different objects, these are: </p>
 <ul>
 <li>Envoy</li>
-<li>Suberban</li>
+<li>Sierra</li>
 <li>Yukon</li>
 </ul>
