@@ -22,7 +22,7 @@ We use objects, which is an instance of a class, while a class is used which is 
 <b>These objects can share the same properties and methods:</b>
 <ul>
    <li>
-    name (which is a string)
+    model (which is a integer)
   </li>
   <li>
     color (which is a string)
@@ -80,3 +80,13 @@ envoy.drive(); // print Car is being driven
 ```
 # Exercise:
 create a java oops program, which ask user (employee) his name, father name, university from which he is graduated, his age, his field, and then print them on the screen, after that, it asks user to update the info, if user enters "yes", it prompts user with the same questions again but if the user entered "no", it will print thanks.
+
+###### Procedural programming code used in this exercise
+1 - using of a scanner to get input
+
+```java
+import java.utils.Scanner;
+```
+```java
+Scanner input = new Scanner(System.in);
+```
