@@ -19,3 +19,59 @@ We use objects, which is an instance of a class, while a class is used which is 
 <img height="150" id="sierra" src="https://user-images.githubusercontent.com/29815204/186344240-168d2eb1-7df5-415f-9f58-c15e1ce1a92a.jpg"/>
 </div>
 </center>
+<b>These objects can share the same properties and methods:</b>
+<ul>
+   <li>
+    name (which is a string)
+  </li>
+  <li>
+    color (which is a string)
+  </li>
+  <li>
+    isXL (which is a boolean)
+  </li>
+  <li>
+    price (which is an integer)
+  </li>
+   <li>
+    drive (which is a function/method)
+  </li>
+   <li>
+    break (which is a function/method)
+  </li>
+  </ul>
+ They share these properties, because they came out from the same class! I hope you have got a theoritical understanding of what classes and objects are.
+ Lets move to the practical knowledge,
+ ### declaring a class
+ We can create a class using the following syntex
+ 
+ ```java
+ public class Gmc {
+ int model;
+ int price;
+ bool isXL;
+ string color;
+ public void drive(){
+ system.out.print("Car is being driven")
+ }
+ public void break(){
+ system.out.print("break!")
+ }
+ }
+ ```
+ if you are in doubt about that public keyword, this is something you will learn in the object modefier topic, while for declaring a class, we use class keyword and then give it any name, in our case we gave it gmc, we close with the class the curly braces, and inside these curly braces, we declare the properties and methods of a class.
+ 
+### creating objects
+```java
+Gmc envoy = new Gmc();
+envoy.model = 2009;
+envoy.price = 35500;
+envoy.isXL = true;
+envoy.color = "golden";
+```
+
+```java
+system.out.println(envoy.model); // print 2009 on console
+system.out.println("SAR: " + envoy.price); // print SAR: 35500
+envoy.drive(); // print Car is being driven
+```
