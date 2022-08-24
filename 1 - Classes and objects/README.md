@@ -1,4 +1,4 @@
 # Chapter 1 | Classes and objects
 <h2> Object Oriented programming has 2 building blocks, termed as classes and objects,
 We use objects, which is an instance of a class, while a class is a blueprint of an object.
-</h2> <b> Confused, right!? </b> <h3> Please follow along, so you may get a better understanding of classes and objects. </h3>
+</h2> <b> Confused, right!? Please follow along, so you may get a better understanding of classes and objects. </b>
