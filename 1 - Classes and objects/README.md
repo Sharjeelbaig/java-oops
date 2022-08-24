@@ -16,8 +16,7 @@ We use objects, which is an instance of a class, while a class is used which is 
   font-size:30px;
   background: #3e3e3e;
   color: #ffffff;
-  width: 200px;
-  height: 40px;
+  
   margin: 0 auto;
   position: relative;
   top: 40px;
