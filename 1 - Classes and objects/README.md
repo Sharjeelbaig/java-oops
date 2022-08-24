@@ -51,10 +51,10 @@ We use objects, which is an instance of a class, while a class is used which is 
  int price;
  bool isXL;
  string color;
- public void drive(){
+ void drive(){
  system.out.print("Car is being driven")
  }
- public void break(){
+ void break(){
  system.out.print("break!")
  }
  }
@@ -81,7 +81,7 @@ envoy.drive(); // print Car is being driven
 # Exercise:
 create a java oops program, which ask user (employee) his name, father name, university from which he is graduated, his age, his field, and then print them on the screen, after that, it asks user to update the info, if user enters "yes", it prompts user with the same questions again but if the user entered "no", it will print thanks.
 
-###### Procedural programming code used in this exercise
+##### Procedural programming code used in this exercise
 1 - using of a scanner to get input
 
 ```java
@@ -89,4 +89,33 @@ import java.utils.Scanner;
 ```
 ```java
 Scanner input = new Scanner(System.in);
+```
+```java
+string myVariable = input.nextLine(); //for string
+int myVariable = input.nextInt(); // for int
+```
+2 - functions are also used in this exercise
+```java
+void myFunction(){
+//code
+}
+```
+3 - Printing on console
+
+```java
+System.out.print("Hello World!");
+System.out.print(1+2);
+```
+```java
+System.out.println("Hello World!");
+System.out.println(1+2);
+```
+4 - if else
+```java
+if(/*condition*/){
+//code 
+}
+else {
+//code 
+}
 ```
