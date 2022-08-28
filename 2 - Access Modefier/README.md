@@ -1,5 +1,5 @@
 # Chapter 2 | Access Modefiers and Encapsulation
-<h2> Access modefiers, which plays a key role to achieve encapsulation in a program, while encapsulation ensures that the pertinent data like user password or verification code is hidden from the user! </b>
+<h2> Access modefiers, which plays a key role to achieve encapsulation in a program, while encapsulation ensures that the pertinent data like user password or verification code is hidden from the user! </b> </h2>
 
 <br />
 <br />
