@@ -3,3 +3,7 @@
 
 
 A collection of exercises and tasks to learn object oriented programming in java
+
+
+https://user-images.githubusercontent.com/29815204/189417980-9d4a02ea-7f77-412b-9976-915b7d23c10e.mp4
+
