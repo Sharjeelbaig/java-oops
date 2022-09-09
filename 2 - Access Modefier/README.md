@@ -173,3 +173,68 @@ class AnotherClass {
   int x = 5;
   }
 ```
+
+# Getters and Setters
+Well, if you have set any variable as private, but you want to access it anyways. For example, a password variable is set to private but in order to login your acount, you have to access that variable in order to proceed. In this case, getters and setters plays their role.
+#### Getter:
+In an Account class we have declared a private password variable which can only be accessible by a getter, so we have also used getter here
+```java
+public class Account {
+   private String password = "$uperSecretPa$$WORLD1#";
+
+   // Getter
+   public String getPassword() {
+     return password;
+   }
+}
+```
+In our main class,
+```java
+public class Main {
+  public static void main(String[] args) {
+    Account myObj = new Account();
+    System.out.println(myObj.getPassword());
+  }
+}
+```
+
+#### Setter:
+In an Account class we have declared a private name variable which can only be changed by a setter, so we have also used setter here
+```java
+public class Account {
+   private String name = "Sharjeel Baig";
+
+   // Setter
+   public String setName(String newName) {
+     this.name = newName();
+   }
+}
+```
+In our main class,
+```java
+public class Main {
+  public static void main(String[] args) {
+    Account myObj = new Account();
+    myObj.setName("Shazi Baig");  // Shazi is my nickname by the way (XD)
+  }
+}
+```
+
+
+Now you have entered your password to login to your social media account, the backend process of social media will check your entered password and the original password which is saved in database using a getter, like this:
+```java
+if(enteredPassword == myObject.getPassword()){
+signInUser();
+} else {
+giveWrongPasswordError();
+}
+```
+And You are about to change your password, you have recieved an otp to confirm it is you, and it is confirmed!, Now to change your password, following code will be used:
+```java
+if(enteredOTP == realOTP){
+myObject.setPassword("my$uper$ecretNewPa$$worLDD1@#");
+}
+```
+I hope you have understood encapsulation in java, for your practice I have prepared an exercise task for you, which is a task to get a circle radius & color and to set a circle radius & color.
+# Exercise
+create a java program in which a Class is used for a circle, this class contain private color and radius variables and getter/setter for each variables, set color and radius of a circle by a user input and display them on screen.
