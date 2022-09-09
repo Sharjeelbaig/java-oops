@@ -220,8 +220,9 @@ public class Main {
 }
 ```
 
+##### real world example
 
-Now you have entered your password to login to your social media account, the backend process of social media will check your entered password and the original password which is saved in database using a getter, like this:
+For instance, you have entered your password to login to your social media account, the backend process of social media will check your entered password and the original password which is saved in database using a getter, like this:
 ```java
 if(enteredPassword == myObject.getPassword()){
 signInUser();
