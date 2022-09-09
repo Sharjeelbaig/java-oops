@@ -238,3 +238,33 @@ myObject.setPassword("my$uper$ecretNewPa$$worLDD1@#");
 I hope you have understood encapsulation in java, for your practice I have prepared an exercise task for you, which is a task to get a circle radius & color and to set a circle radius & color.
 # Exercise
 create a java program in which a Class is used for a circle, this class contain private color and radius variables and getter/setter for each variables, set color and radius of a circle by a user input and display them on screen.
+
+##### Procedural programming code used in this exercise
+1 - using of a scanner to get input
+
+```java
+import java.utils.Scanner;
+```
+```java
+Scanner input = new Scanner(System.in);
+```
+```java
+string myVariable = input.nextLine(); //for string
+int myVariable = input.nextInt(); // for int
+```
+2 - functions are also used in this exercise
+```java
+void myFunction(){
+//code
+}
+```
+3 - Printing on console
+
+```java
+System.out.print("Hello World!");
+System.out.print(1+2);
+```
+```java
+System.out.println("Hello World!");
+System.out.println(1+2);
+```
